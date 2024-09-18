@@ -1,0 +1,91 @@
+.ticket-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.ticket-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.ticket-header {
+  display: flex;
+  align-items: start;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  color: gray;
+}
+
+.ticket-id {
+  font-weight: bold;
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+.user-initials {
+  width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: bold;
+    color: gray;
+}
+
+.ticket-title-container {
+  display: flex;
+  align-items: start;
+  margin-bottom: 10px;
+}
+
+.status-symbol {
+  font-size: 10px;
+  margin-right: 10px;
+}
+
+.ticket-title {
+  /* font-size: 18px; */
+  margin: 0;
+}
+
+.ticket-footer {
+  display: flex;
+    align-items: flex-start;
+}
+
+.priority-icon {
+  font-size: 10px;
+  margin-bottom: 10px; /* Space between priority icon and tags */
+}
+
+.tags {
+  list-style: none; /* Remove default list styling */
+  padding: 0;
+  margin: 0 0 0 10px;
+}
+
+.ticket-tag {
+  font-size: 14px;
+  margin-bottom: 5px; /* Space between tags */
+  position: relative; /* Position relative for the disc */
+  color: gray;
+  font-size: 10px;
+  padding-left: 20px; /* Space for the disc */
+}
+
+.ticket-tag::before {
+  content: '•';
+    font-size: 27px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    color: gray;
+    transform: translateY(-58%);
+}

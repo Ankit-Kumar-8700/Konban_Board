@@ -1,0 +1,50 @@
+.display-options {
+    padding: 16px;
+    background: white;
+  }
+  
+  .display-button, select, .options-container {
+    font-size: 14px;
+    background-color: #ffffff;
+    color: #232323;
+    border: 1px solid #acacac;
+    padding: 5px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .display-button:hover, select:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  /* .display-button:focus{
+    background-color: black;
+  } */
+  
+  .options-container {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    position: absolute;
+    background: white;
+    padding: 10px 15px;
+    /* border: 1px solid;
+    border-radius: 10px; */
+    top: 38px;
+    left: 14px;
+    min-width: 300px;
+  }
+  
+  .option-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+  }
+  
+  label {
+    color: gray;
+  }
+  

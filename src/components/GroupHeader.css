@@ -1,0 +1,56 @@
+.group-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  }
+  
+  .header-left {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+  
+  .heading-icon {
+    font-size: 12px; /* Adjust size as needed */
+  }
+  
+  .userLogo{
+    padding: 3px;
+    background: white;
+    border-radius: 50%;
+  }
+
+  .heading-text {
+    margin: 0 7px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .card-count {
+    color: gray;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 12px;
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .add-icon, .more-options {
+    font-size: 18px;
+    margin-left: 15px;
+    cursor: pointer;
+    color: gray;
+  }
+  
+  .add-icon:hover, .more-options:hover {
+    color: #3c3c3c; /* Hover effect for the icons */
+  }
+  
