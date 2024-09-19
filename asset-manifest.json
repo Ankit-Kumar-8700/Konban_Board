@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Konban_Board/static/css/main.7626aeb0.css",
-    "main.js": "/Konban_Board/static/js/main.5cc5883d.js",
+    "main.css": "/Konban_Board/static/css/main.68fb5355.css",
+    "main.js": "/Konban_Board/static/js/main.791d58fe.js",
     "static/js/453.c37b69cc.chunk.js": "/Konban_Board/static/js/453.c37b69cc.chunk.js",
     "index.html": "/Konban_Board/index.html",
-    "main.7626aeb0.css.map": "/Konban_Board/static/css/main.7626aeb0.css.map",
-    "main.5cc5883d.js.map": "/Konban_Board/static/js/main.5cc5883d.js.map",
+    "main.68fb5355.css.map": "/Konban_Board/static/css/main.68fb5355.css.map",
+    "main.791d58fe.js.map": "/Konban_Board/static/js/main.791d58fe.js.map",
     "453.c37b69cc.chunk.js.map": "/Konban_Board/static/js/453.c37b69cc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7626aeb0.css",
-    "static/js/main.5cc5883d.js"
+    "static/css/main.68fb5355.css",
+    "static/js/main.791d58fe.js"
   ]
 }
