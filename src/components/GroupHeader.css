@@ -15,7 +15,7 @@
   }
   
   .heading-icon {
-    font-size: 12px; /* Adjust size as needed */
+    font-size: 12px;
   }
   
   .userLogo{
@@ -51,6 +51,6 @@
   }
   
   .add-icon:hover, .more-options:hover {
-    color: #3c3c3c; /* Hover effect for the icons */
+    color: #3c3c3c;
   }
   

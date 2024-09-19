@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './DisplayOptions.css'; // Ensure you have a CSS file for styling
+import './DisplayOptions.css';
 
 const DisplayOptions = ({ groupBy, setGroupBy, sortBy, setSortBy }) => {
   const [isVisible, setIsVisible] = useState(false);
@@ -11,7 +11,7 @@ const DisplayOptions = ({ groupBy, setGroupBy, sortBy, setSortBy }) => {
   return (
     <div className="display-options">
       <button className="display-button" onClick={toggleVisibility}>
-        Display ▼
+        ☰ Display ▼
       </button>
 
       {isVisible && (

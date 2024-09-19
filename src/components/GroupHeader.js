@@ -6,7 +6,7 @@ function GroupHeader({groupBy, group, items}) {
   return (
     <div className="group-header">
   <div className="header-left">
-    <span className={"heading-icon" + (groupBy === 'user' ? " userLogo" : "")}>{groupBy === 'status' ? statusSymbol(group) : groupBy === 'priority' ? priorityIcon(group) : userInitials(group)}</span> {/* Replace with your desired icon */}
+    <span className={"heading-icon" + (groupBy === 'user' ? " userLogo" : "")}>{groupBy === 'status' ? statusSymbol(group) : groupBy === 'priority' ? priorityIcon(group) : userInitials(group)}</span>
     <h2 className="heading-text">{groupBy === 'priority' ? mapPriorityToLabel(group) : group}</h2>
     <span className="card-count">{items}</span>
   </div>

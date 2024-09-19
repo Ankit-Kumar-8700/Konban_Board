@@ -1,5 +1,5 @@
 import React from 'react';
-import './TicketCard.css'; // Import your styles
+import './TicketCard.css';
 import { priorityIcon, statusSymbol, userInitials } from '../helper/iconHelper';
 
 const TicketCard = ({ ticket, user, groupBy }) => {

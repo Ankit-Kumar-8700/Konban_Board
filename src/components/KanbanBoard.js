@@ -11,12 +11,12 @@ const KanbanBoard = () => {
   const [groupBy, setGroupBy] = useState(() => localStorage.getItem('groupBy') || 'status');
   const [sortBy, setSortBy] = useState(() => localStorage.getItem('sortBy') || 'priority');
   const [groupedTickets, setGroupedTickets] = useState({});
-  const [sortedTickets, setSortedTickets] = useState([]);
+  // const [sortedTickets, setSortedTickets] = useState([]);
 
   useEffect(() => {
     const getTickets = async () => {
       const data = await fetchTickets();
-      setTickets(data.tickets); // Assuming API gives a tickets array
+      setTickets(data.tickets);
       setUsers(data.users);
     };
     getTickets();

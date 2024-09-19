@@ -51,7 +51,6 @@
 }
 
 .ticket-title {
-  /* font-size: 18px; */
   margin: 0;
 }
 
@@ -62,22 +61,22 @@
 
 .priority-icon {
   font-size: 10px;
-  margin-bottom: 10px; /* Space between priority icon and tags */
+  margin-bottom: 10px;
 }
 
 .tags {
-  list-style: none; /* Remove default list styling */
+  list-style: none;
   padding: 0;
   margin: 0 0 0 10px;
 }
 
 .ticket-tag {
   font-size: 14px;
-  margin-bottom: 5px; /* Space between tags */
-  position: relative; /* Position relative for the disc */
+  margin-bottom: 5px;
+  position: relative;
   color: gray;
   font-size: 10px;
-  padding-left: 20px; /* Space for the disc */
+  padding-left: 20px;
 }
 
 .ticket-tag::before {
